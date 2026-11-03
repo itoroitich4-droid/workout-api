@@ -35,8 +35,6 @@ cd server
 
 # create the database
 export FLASK_APP=app.py
-flask db init
-flask db migrate -m "Create exercises, workouts and workout_exercises tables"
 flask db upgrade head
 
 # load example data (safe to re-run; it clears existing data first)
