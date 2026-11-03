@@ -1,0 +1,27 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local database and instance data
+*.db
+instance/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Tooling
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
